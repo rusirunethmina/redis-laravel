@@ -17,3 +17,14 @@ Table of Contents
 11.Monitoring and Performance Optimization with Redis
 
 - [How to Use Redis with Laravel: A Comprehensive Guide](https://medium.com/@mohammad.roshandelpoor/how-to-use-redis-with-laravel-a-comprehensive-guide-247cfcac0a68).
+
+
+
+How to use in windows 11
+
+-[ install redis for windows](https://github.com/tporadowski/redis/releases)
+-[ add redis path to env variable]
+-[ Then can check redis is working & staring the server using this cmd on cli (redis-server) and use (redis-cli) cmd on cli to check working the key values pair]
+-[On Windows]:
+      -[Download the correct Redis DLL for your PHP version from](https://pecl.php.net).
+      -[Add the .dll file to your PHP ext directory and enable it in the php.ini file: extension=redis]
